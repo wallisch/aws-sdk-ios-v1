@@ -1,6 +1,6 @@
 {
   "name": "AWSiOSSDK",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "license": "Apache License, Version 2.0",
   "summary": "Amazon Web Services SDK for iOS.",
   "homepage": "http://aws.amazon.com/sdkforios",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/wallisch/aws-sdk-ios-v1.git",
-    "tag": "1.7.1"
+    "tag": "1.7.2"
   },
   "description": "The AWS SDK for iOS provides a library, code samples, and documentation for developers to build connected mobile applications using AWS.",
   "platforms": {
