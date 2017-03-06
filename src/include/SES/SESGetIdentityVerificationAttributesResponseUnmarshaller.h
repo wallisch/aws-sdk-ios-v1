@@ -20,14 +20,14 @@
 #import <AWSRuntime/AmazonValueUnmarshaller.h>
 #import <AWSRuntime/AmazonBoolValueUnmarshaller.h>
 #else
-#import "../AmazonValueUnmarshaller.h"
-#import "../AmazonBoolValueUnmarshaller.h"
+#import "AmazonValueUnmarshaller.h"
+#import "AmazonBoolValueUnmarshaller.h"
 #endif
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonDictionaryUnmarshaller.h>
 #else
-#import "../AmazonDictionaryUnmarshaller.h"
+#import "AmazonDictionaryUnmarshaller.h"
 #endif
 #import "SESIdentityVerificationAttributesUnmarshaller.h"
 

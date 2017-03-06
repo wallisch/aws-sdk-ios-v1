@@ -14,7 +14,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "../AmazonServiceResponseUnmarshaller.h"
+#import "AmazonServiceResponseUnmarshaller.h"
 
 @interface AutoScalingResponseUnmarshaller:AmazonServiceResponseUnmarshaller {
 }

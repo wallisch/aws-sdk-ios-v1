@@ -14,7 +14,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "../AmazonServiceException.h"
+#import "AmazonServiceException.h"
 
 @interface DynamoDBExceptionUnmarshaller:NSObject {
 }

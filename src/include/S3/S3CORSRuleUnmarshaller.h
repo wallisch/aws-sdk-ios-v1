@@ -16,7 +16,7 @@
 #import <Foundation/Foundation.h>
 
 #import "S3CORSRule.h"
-#import "../AmazonUnmarshallerXMLParserDelegate.h"
+#import "AmazonUnmarshallerXMLParserDelegate.h"
 
 /** Creates an S3CORSRule from an XML service repsonse. */
 @interface S3CORSRuleUnmarshaller:AmazonUnmarshallerXMLParserDelegate {

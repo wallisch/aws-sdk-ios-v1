@@ -20,8 +20,8 @@
 #import <AWSRuntime/AmazonValueUnmarshaller.h>
 #import <AWSRuntime/AmazonBoolValueUnmarshaller.h>
 #else
-#import "../AmazonValueUnmarshaller.h"
-#import "../AmazonBoolValueUnmarshaller.h"
+#import "AmazonValueUnmarshaller.h"
+#import "AmazonBoolValueUnmarshaller.h"
 #endif
 #import "EC2SnapshotUnmarshaller.h"
 

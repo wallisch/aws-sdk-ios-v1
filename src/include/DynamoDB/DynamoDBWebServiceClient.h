@@ -16,7 +16,7 @@
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonAbstractJsonWebServiceClient.h>
 #else
-#import "../AmazonAbstractJsonWebServiceClient.h"
+#import "AmazonAbstractJsonWebServiceClient.h"
 #endif
 
 @interface DynamoDBWebServiceClient:AmazonAbstractJsonWebServiceClient

@@ -17,8 +17,8 @@
 #import <AWSRuntime/AmazonServiceRequest.h>
 #import <AWSRuntime/AmazonAuthUtils.h>
 #else
-#import "../AmazonServiceRequest.h"
-#import "../AmazonAuthUtils.h"
+#import "AmazonServiceRequest.h"
+#import "AmazonAuthUtils.h"
 #endif
 
 /**

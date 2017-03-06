@@ -20,22 +20,22 @@
 #import <AWSRuntime/AmazonValueUnmarshaller.h>
 #import <AWSRuntime/AmazonBoolValueUnmarshaller.h>
 #else
-#import "../AmazonValueUnmarshaller.h"
-#import "../AmazonBoolValueUnmarshaller.h"
+#import "AmazonValueUnmarshaller.h"
+#import "AmazonBoolValueUnmarshaller.h"
 #endif
 #import "EC2VolumeStatusInfoUnmarshaller.h"
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonListUnmarshaller.h>
 #else
-#import "../AmazonListUnmarshaller.h"
+#import "AmazonListUnmarshaller.h"
 #endif
 #import "EC2VolumeStatusEventUnmarshaller.h"
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonListUnmarshaller.h>
 #else
-#import "../AmazonListUnmarshaller.h"
+#import "AmazonListUnmarshaller.h"
 #endif
 #import "EC2VolumeStatusActionUnmarshaller.h"
 

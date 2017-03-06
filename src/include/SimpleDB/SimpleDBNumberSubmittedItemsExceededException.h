@@ -16,7 +16,7 @@
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonServiceException.h>
 #else
-#import "../AmazonServiceException.h"
+#import "AmazonServiceException.h"
 #endif
 
 

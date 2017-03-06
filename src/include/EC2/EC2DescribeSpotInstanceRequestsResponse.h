@@ -20,7 +20,7 @@
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonServiceRequestConfig.h>
 #else
-#import "../AmazonServiceRequestConfig.h"
+#import "AmazonServiceRequestConfig.h"
 #endif
 
 

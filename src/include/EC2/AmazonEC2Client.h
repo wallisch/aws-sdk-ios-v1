@@ -202,7 +202,7 @@
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonWebServiceClient.h>
 #else
-#import "../AmazonWebServiceClient.h"
+#import "AmazonWebServiceClient.h"
 #endif
 
 /** \defgroup EC2 Amazon EC2 */

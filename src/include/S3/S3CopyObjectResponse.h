@@ -19,7 +19,7 @@
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonSDKUtil.h>
 #else
-#import "../AmazonSDKUtil.h"
+#import "AmazonSDKUtil.h"
 #endif
 
 /** Contains the response from a putObject operation.

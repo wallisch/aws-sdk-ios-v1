@@ -16,7 +16,7 @@
 #import <Foundation/Foundation.h>
 
 #import "S3BucketTagSet.h"
-#import "../AmazonUnmarshallerXMLParserDelegate.h"
+#import "AmazonUnmarshallerXMLParserDelegate.h"
 
 /** Creates an S3BucketTagSet from an XML service repsonse. */
 @interface S3BucketTagSetUnmarshaller:AmazonUnmarshallerXMLParserDelegate {

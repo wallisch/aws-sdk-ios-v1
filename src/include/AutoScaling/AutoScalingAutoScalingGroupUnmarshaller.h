@@ -20,60 +20,60 @@
 #import <AWSRuntime/AmazonValueUnmarshaller.h>
 #import <AWSRuntime/AmazonBoolValueUnmarshaller.h>
 #else
-#import "../AmazonValueUnmarshaller.h"
-#import "../AmazonBoolValueUnmarshaller.h"
+#import "AmazonValueUnmarshaller.h"
+#import "AmazonBoolValueUnmarshaller.h"
 #endif
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonListUnmarshaller.h>
 #else
-#import "../AmazonListUnmarshaller.h"
+#import "AmazonListUnmarshaller.h"
 #endif
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonListUnmarshaller.h>
 #else
-#import "../AmazonListUnmarshaller.h"
+#import "AmazonListUnmarshaller.h"
 #endif
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonListUnmarshaller.h>
 #else
-#import "../AmazonListUnmarshaller.h"
+#import "AmazonListUnmarshaller.h"
 #endif
 #import "AutoScalingInstanceUnmarshaller.h"
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonListUnmarshaller.h>
 #else
-#import "../AmazonListUnmarshaller.h"
+#import "AmazonListUnmarshaller.h"
 #endif
 #import "AutoScalingSuspendedProcessUnmarshaller.h"
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonListUnmarshaller.h>
 #else
-#import "../AmazonListUnmarshaller.h"
+#import "AmazonListUnmarshaller.h"
 #endif
 #import "AutoScalingEnabledMetricUnmarshaller.h"
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonListUnmarshaller.h>
 #else
-#import "../AmazonListUnmarshaller.h"
+#import "AmazonListUnmarshaller.h"
 #endif
 #import "AutoScalingTagDescriptionUnmarshaller.h"
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonListUnmarshaller.h>
 #else
-#import "../AmazonListUnmarshaller.h"
+#import "AmazonListUnmarshaller.h"
 #endif
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonSDKUtil.h>
 #else
-#import "../AmazonSDKUtil.h"
+#import "AmazonSDKUtil.h"
 #endif
 
 

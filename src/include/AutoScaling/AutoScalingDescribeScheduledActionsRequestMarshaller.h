@@ -16,13 +16,13 @@
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonServiceRequest.h>
 #else
-#import "../AmazonServiceRequest.h"
+#import "AmazonServiceRequest.h"
 #endif
 
 #ifdef AWS_MULTI_FRAMEWORK
 #import <AWSRuntime/AmazonSDKUtil.h>
 #else
-#import "../AmazonSDKUtil.h"
+#import "AmazonSDKUtil.h"
 #endif
 
 #import "AutoScalingRequest.h"

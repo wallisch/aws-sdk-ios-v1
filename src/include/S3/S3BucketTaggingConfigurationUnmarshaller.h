@@ -15,7 +15,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "../AmazonUnmarshallerXMLParserDelegate.h"
+#import "AmazonUnmarshallerXMLParserDelegate.h"
 #import "S3BucketTaggingConfiguration.h"
 
 /** Creates an S3BucketTaggingConfiguration from an XML service repsonse. */

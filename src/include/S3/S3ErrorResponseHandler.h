@@ -19,8 +19,8 @@
 #import <AWSRuntime/AmazonServiceException.h>
 #import <AWSRuntime/AmazonUnmarshallerXMLParserDelegate.h>
 #else
-#import "../AmazonServiceException.h"
-#import "../AmazonUnmarshallerXMLParserDelegate.h"
+#import "AmazonServiceException.h"
+#import "AmazonUnmarshallerXMLParserDelegate.h"
 #endif
 
 /** Parse an error response from Amazon S3 and construct the corresponding

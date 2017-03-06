@@ -16,7 +16,7 @@
 #import <Foundation/Foundation.h>
 #import "S3ServiceModel.h"
 #import "S3VersionSummary.h"
-#import "../AmazonUnmarshallerXMLParserDelegate.h"
+#import "AmazonUnmarshallerXMLParserDelegate.h"
 
 @class S3Bucket;
 
